@@ -1,0 +1,49 @@
+* {
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: purple;
+    color: white;
+}
+
+td, th {
+    border: 1px solid black;
+    width: 30px;
+    height: 50px;
+}
+
+.btn_save {
+    text-align: center;
+}
+
+.save_button {
+    padding: 12px;
+    margin: 10px;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+}
+
+.save_button:hover { 
+    background-color: white;
+    color: purple;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_new {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}

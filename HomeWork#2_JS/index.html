@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Homework #2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+</head>
+<body>
+
+  <div class="container">
+    <table id="tableContainer">
+      <thead>
+        <tr>
+          <th></th>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+          <th>D</th>
+          <th>E</th>
+          <th>F</th>
+          <th>G</th>
+          <th>H</th>
+          <th>I</th>
+          <th>J</th>
+          <th>K</th>
+          <th>L</th>
+          <th>M</th>
+          <th>N</th>
+          <th>O</th>
+
+          <td>
+            <button type="button" onclick="newRow()" class="btn_new"><strong>+</strong></button>
+          </td>
+        </tr>
+      </thead>
+
+      <tbody id="tableBody">
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td class="btn_save" colspan="20">
+            <button type="button" class="save_button" onclick="save();">Guardar</button>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
